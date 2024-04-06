@@ -1,0 +1,93 @@
+/* Define color variables */
+:root {
+    --background-color: #abccff;
+    --text-color: black;
+    --header-bg-color: #abccff;
+    --header-text-color: black;
+    --section-bg-color: #f6f1f1;
+    --section-header-color: #007bff;
+    --footer-bg-color: #abccff;
+    --footer-text-color: black;
+    --work-period-color: #767676;
+  }
+  
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  section {
+    background-color: var(--section-bg-color);
+  }
+  
+  section h2 {
+    color: var(--section-header-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .work-period {
+    font-size: medium;
+    font-weight: bold;
+    color: var(--work-period-color);
+  }
+  
